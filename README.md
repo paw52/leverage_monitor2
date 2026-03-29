@@ -5,7 +5,7 @@ If it does not get the expected response, it sends an email alert to the specifi
 The top-level Main program controls things
    - It enters a loop (simulating monitoring) 
    - Each loop: 
-        - 	calls status() from your health monitor 
+        - 	calls status() from the health monitor 
         - gets back health = True/False 
     After loop finishes: 
          -check final health 
