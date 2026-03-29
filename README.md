@@ -6,9 +6,10 @@ The top-level Main program controls things
    - It enters a loop (simulating monitoring) 
    - Each loop: 
         - 	calls status() from the health monitor 
-        - gets back health = True/False 
+        - gets back health = True/False
+          
     After loop finishes: 
          -check final health 
-            -If unhealthy: 
+            -If unhealthy (False): 
                  call send_email() 
 
